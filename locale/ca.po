@@ -1,0 +1,23 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.template,requires_validation_for_purchase:"
+msgid "Requires Validation for Purchase"
+msgstr "Requereix validació a la compra"
+
+msgctxt "field:purchase.product_supplier,validated:"
+msgid "Validated"
+msgstr "Validat"
+
+msgctxt "model:ir.message,text:msg_product_supplier_validation"
+msgid ""
+"Purchase \"%(purchase)s\" cannot be processed because product "
+"\"%(product)s\" has not been validated for supplier \"%(supplier)s\"."
+msgstr ""
+"La compra \"%(purchase)s\" no es pot processar perquè el producte "
+"\"%(product)s\" no ha estat validat pel proveïdor \"%(supplier)s\"."
+
+msgctxt "model:res.group,name:group_purchase_validation"
+msgid "Purchase Validation"
+msgstr "Validació en la compra"
