@@ -6,6 +6,10 @@ msgctxt "field:product.template,requires_validation_for_purchase:"
 msgid "Requires Validation for Purchase"
 msgstr "Requiere validación a la compra"
 
+msgctxt "field:product.product,requires_validation_for_purchase:"
+msgid "Requires Validation for Purchase"
+msgstr "Requiere validación a la compra"
+
 msgctxt "field:purchase.product_supplier,validated:"
 msgid "Validated"
 msgstr "Validado"
