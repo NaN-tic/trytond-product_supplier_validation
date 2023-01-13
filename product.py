@@ -16,6 +16,10 @@ class Template(metaclass=PoolMeta):
         })
 
 
+class Product(metaclass=PoolMeta):
+    __name__ = 'product.product'
+
+
 class ProductSupplier(metaclass=PoolMeta):
     __name__ = 'purchase.product_supplier'
     validated = fields.Boolean("Validated", states={
