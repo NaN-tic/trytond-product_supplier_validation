@@ -100,6 +100,7 @@ Supplier validation::
     >>> purchase.lines.append(purchase_line)
     >>> purchase_line.product = product
     >>> purchase_line.quantity = 2.0
+    >>> purchase_line.unit_price = Decimal('10')
     >>> purchase.save()
     >>> purchase.click('quote')    # doctest: +IGNORE_EXCEPTION_DETAIL
     Traceback (most recent call last):
