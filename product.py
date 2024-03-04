@@ -33,5 +33,5 @@ class ProductSupplier(metaclass=PoolMeta):
             default = {}
         else:
             default = default.copy()
-        default.setdefault('validation_for_supplier', None)
+        default.setdefault('validated', None)
         return super(ProductSupplier, cls).copy(products, default=default)
