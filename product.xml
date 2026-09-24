@@ -6,10 +6,6 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
         <record model="res.group" id="group_purchase_validation">
             <field name="name">Purchase Validation</field>
         </record>
-        <record model="res.user-res.group" id="user_admin_group_purchase_validation">
-            <field name="user" ref="res.user_admin"/>
-            <field name="group" ref="group_purchase_validation"/>
-        </record>
 
         <!-- product -->
         <record model="ir.ui.view" id="template_view_form">
