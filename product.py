@@ -11,7 +11,7 @@ class Template(metaclass=PoolMeta):
     requires_validation_for_purchase = fields.Boolean(
         "Requires Validation for Purchase",
         states={
-            'readonly': ~Eval('context', {}).get('groups', []).contains(
+            'editable': Eval('context', {}).get('groups', []).contains(
                 Id('product_supplier_validation', 'group_purchase_validation'))
         })
 
@@ -23,7 +23,7 @@ class Product(metaclass=PoolMeta):
 class ProductSupplier(metaclass=PoolMeta):
     __name__ = 'purchase.product_supplier'
     validated = fields.Boolean("Validated", states={
-            'readonly': ~Eval('context', {}).get('groups', []).contains(
+            'editable': Eval('context', {}).get('groups', []).contains(
                 Id('product_supplier_validation', 'group_purchase_validation'))
             })
 
