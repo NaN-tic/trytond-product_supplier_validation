@@ -4,12 +4,14 @@
 from trytond.pool import PoolMeta
 from trytond.exceptions import UserError
 from trytond.i18n import gettext
+from trytond.model import ModelView
 
 
 class Purchase(metaclass=PoolMeta):
     __name__ = 'purchase.purchase'
 
     @classmethod
+    @ModelView.button
     def quote(cls, purchases):
         for purchase in purchases:
             for line in purchase.lines:
