@@ -1,0 +1,33 @@
+#
+msgid ""
+msgstr ""
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "field:product.template,requires_validation_for_purchase:"
+msgid "Requires Validation for Purchase"
+msgstr "Beszerzéshez jóváhagyás szükséges"
+
+msgctxt "field:product.product,requires_validation_for_purchase:"
+msgid "Requires Validation for Purchase"
+msgstr "Beszerzéshez jóváhagyás szükséges"
+
+msgctxt "field:purchase.product_supplier,validated:"
+msgid "Validated"
+msgstr "jóváhagyott"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_product_supplier_validation"
+msgid ""
+"Purchase \"%(purchase)s\" cannot be processed because product "
+"\"%(product)s\" has not been validated for supplier \"%(supplier)s\"."
+msgstr ""
+"A(z) „%(purchase)s” beszerzés nem dolgozható fel, mert a(z) „%(product)s” "
+"termék nincs jóváhagyva a(z) „%(supplier)s” szállítóhoz."
+
+msgctxt "model:res.group,name:group_purchase_validation"
+msgid "Purchase Validation"
+msgstr "Beszerzési jóváhagyás"
