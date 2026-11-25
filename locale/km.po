@@ -1,0 +1,33 @@
+#
+msgid ""
+msgstr ""
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:product.template,requires_validation_for_purchase:"
+msgid "Requires Validation for Purchase"
+msgstr "តម្រូវឱ្យផ្ទៀងផ្ទាត់សម្រាប់ការទិញ"
+
+msgctxt "field:product.product,requires_validation_for_purchase:"
+msgid "Requires Validation for Purchase"
+msgstr "តម្រូវឱ្យផ្ទៀងផ្ទាត់សម្រាប់ការទិញ"
+
+msgctxt "field:purchase.product_supplier,validated:"
+msgid "Validated"
+msgstr "បានផ្ទៀងផ្ទាត់"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_product_supplier_validation"
+msgid ""
+"Purchase \"%(purchase)s\" cannot be processed because product \"%(product)s\""
+" has not been validated for supplier \"%(supplier)s\"."
+msgstr ""
+"មិនអាចដំណើរការការទិញ «%(purchase)s» បានទេ ព្រោះផលិតផល «%(product)s» "
+"មិនទាន់បានផ្ទៀងផ្ទាត់សម្រាប់អ្នកផ្គត់ផ្គង់ «%(supplier)s»។"
+
+msgctxt "model:res.group,name:group_purchase_validation"
+msgid "Purchase Validation"
+msgstr "ការផ្ទៀងផ្ទាត់ការទិញ"
